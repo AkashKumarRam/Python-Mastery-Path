@@ -6,7 +6,7 @@ Print the updated list.
 
 numbers = [23, 56, 938, 92, 45]
 
-numbers[2] = 0
-numbers[4] = 0
+numbers[1] = 0
+numbers[3] = 0
 
 print(f"Updated List is = {numbers}")
