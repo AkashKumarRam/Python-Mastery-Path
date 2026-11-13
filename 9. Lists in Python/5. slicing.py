@@ -8,7 +8,7 @@ print(lst1)
 lst2 = lst[3:9]
 print(lst2)
 
-# Black mane end tak automatic chole jabe
+# Blank mane end tak automatic chole jabe
 lst3 = lst[2:]
 print(lst3)
 
