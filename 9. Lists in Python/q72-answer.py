@@ -20,7 +20,7 @@ columns = len(matrix[0])
 
 for i in range(0, rows):
     for j in range(0, columns):
-        if i + j == 2:
+        if i + j == rows - 1:
             print(matrix[i][j], end=" ")
         else:
             print("*", end=" ")
