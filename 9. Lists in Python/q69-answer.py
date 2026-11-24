@@ -1,6 +1,11 @@
 """
 Given a 3x3 matrix as input. print its lower triangle. Replace all elements
 in the upper triangle (above the main diagonal) with an asterisk(*).
+expected output =
+
+1 * *
+4 5 *
+7 8 9
 """
 
 matrix = [
