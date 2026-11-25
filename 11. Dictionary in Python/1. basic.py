@@ -5,6 +5,7 @@ marks = {
     55: 100,
     23: "Akash",
     (1, 2): "Anjali",
+    "Maths": 97,
 }
 
 print(marks)

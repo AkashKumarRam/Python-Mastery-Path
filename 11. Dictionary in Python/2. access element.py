@@ -8,7 +8,9 @@ marks = {
 
 # print(marks["Computer"])
 """
-Jodi tumi chau je key jodi na paoa jai tahole custom message return korte
+Jodi tumi chau je key jodi na paoa jai tahole custom message return korte.
+By default kono value na pele eta "None" return kore
+
 answer = marks.get("Geo", "Key doesnot exists")
 print(answer)
 """
