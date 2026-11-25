@@ -17,6 +17,7 @@ print(key)
 # Iteration using key
 total = 0
 
+# Ekhane marks.keys() er jaigai only marks likhleu same result paoa jabe
 for subject in marks.keys():
     print(f"Subjects are = {subject} and marks are = {marks[subject]}")
     total = total + marks[subject]
