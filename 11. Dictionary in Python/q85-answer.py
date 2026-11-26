@@ -1,0 +1,29 @@
+"""
+Write a Python function named merge_dicts(d1,d2) that accepts two
+dictionaries (d1 and d2) as arguments and returns a new dictionary formed
+by merging them using the update() method. Ensure d1 remains unchanged.
+"""
+
+d1 = {
+    "a": 1,
+    "b": 2,
+    "c": 3,
+}
+d2 = {
+    "d": 4,
+    "e": 5,
+    "f": 6,
+}
+
+
+def merge_dicts(d1, d2):
+
+    new_dictionary = {}
+    new_dictionary.update(d1)
+    new_dictionary.update(d2)
+
+    return new_dictionary
+
+
+answer = merge_dicts(d1, d2)
+print(answer)
