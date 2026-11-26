@@ -10,3 +10,38 @@ answer = dict(
     sorted(students.items(), key=lambda total: sum(total[1].values()), reverse=True)
 )
 print(answer)
+
+
+"""
+zip() method = deita list ke aksathe jora lagiye dei - 
+
+names = ["Akash", "Anjali", "Rahul"]
+marks = [97, 90, 92]
+
+new_list = dict(zip(names, marks))
+print(new_list)
+"""
+
+
+"""
+Zip duto list er modhe jokhon zip kore tokhon choto list porjonto chole
+tarpor stop hoye jai - 
+
+names = ["Akash", "Anjali", "Rahul"]
+marks = [97, 90]
+
+new_list = dict(zip(names, marks))
+print(new_list)
+"""
+
+
+"""
+Zip same key but value alada thakle akta key pic kore last er value take
+tule updated value dekhai - 
+
+names = ["Akash", "Anjali", "Anjali"]
+marks = [97, 90, 99]
+
+new_list = dict(zip(names, marks))
+print(new_list)
+"""
